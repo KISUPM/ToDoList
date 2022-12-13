@@ -1,0 +1,52 @@
+body{
+    padding:5px;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#create-tdl{
+    /* border:1px solid black; */
+}
+
+#create-tdl > p{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#create-tdl input{
+    margin-top: auto;
+    margin-bottom: auto;
+    width:500px;
+}
+
+.tdl{
+    border:1px solid #8f8f8f;
+    border-radius: 5px;
+    padding:5px;
+    display:flex;
+    justify-content: space-between;
+    margin-top:5px;
+    cursor: pointer;
+}
+
+.tdl > p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tdldone{
+    background: #e4e4e4;
+    text-decoration: line-through;
+}
+
+div{
+    user-select: none;
+}
+
+
